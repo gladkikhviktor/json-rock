@@ -1,8 +1,8 @@
 package = "json2.lua"
-version = "2.0-2"
+version = "2.0-4"
 source = {
     url = "git://github.com/gladkikhviktor/json.lua",
-    tag= "v2.0.2"
+    tag= "v2.0.4"
 }
 description = {
     summary = "A lightweight JSON library for Lua.",
@@ -16,6 +16,6 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        json = "src/json2.lua"
+        json2 = "src/json2.lua"
     }
 }
