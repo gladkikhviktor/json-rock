@@ -16,6 +16,6 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        json = "json.lua"
+        json = "src/json2.lua"
     }
 }

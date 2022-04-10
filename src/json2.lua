@@ -1,7 +1,7 @@
 --
--- json.lua
+-- json2.lua
 --
--- Copyright (c) 2020 rxi
+-- Copyright (c) 2022 gladkikhviktor
 --
 -- Permission is hereby granted, free of charge, to any person obtaining a copy of
 -- this software and associated documentation files (the "Software"), to deal in
@@ -22,7 +22,7 @@
 -- SOFTWARE.
 --
 
-local json = { _version = "0.1.2" }
+local json2 = { _version = "2.0-1" }
 
 -------------------------------------------------------------------------------
 -- Encode
@@ -131,7 +131,7 @@ encode = function(val, stack)
 end
 
 
-function json.encode(val)
+function json2.encode(val)
   return ( encode(val) )
 end
 
@@ -372,7 +372,7 @@ parse = function(str, idx)
 end
 
 
-function json.decode(str)
+function json2.decode(str)
   if type(str) ~= "string" then
     error("expected argument of type string, got " .. type(str))
   end
@@ -385,4 +385,4 @@ function json.decode(str)
 end
 
 
-return json
+return json2
