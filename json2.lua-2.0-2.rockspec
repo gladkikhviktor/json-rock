@@ -1,8 +1,8 @@
 package = "json2.lua"
-version = "2.0-1"
+version = "2.0-2"
 source = {
     url = "git://github.com/gladkikhviktor/json.lua",
-    tag= "v2.0"
+    tag= "v2.0.2"
 }
 description = {
     summary = "A lightweight JSON library for Lua.",

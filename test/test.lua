@@ -1,5 +1,5 @@
 
-local json = loadfile("../json.lua")()
+local json = loadfile("../src/json2.lua")()
 
 
 local fmt = string.format
