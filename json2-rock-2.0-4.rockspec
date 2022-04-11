@@ -1,12 +1,11 @@
-package = "json2.lua"
+package = "json-rock"
 version = "2.0-4"
 source = {
-    url = "git://github.com/gladkikhviktor/json.lua",
-    tag= "v2.0.4"
+    url = "git+https://github.com/gladkikhviktor/json-rock",
 }
 description = {
     summary = "A lightweight JSON library for Lua.",
-    homepage = "https://github.com/gladkikhviktor/json.lua",
+    homepage = "https://github.com/gladkikhviktor/json-rock",
     license = " MIT",
     maintainer = "Viktor Gladkikh <vgladkih7@gmail.com>"
 }
