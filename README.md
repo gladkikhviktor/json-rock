@@ -1,6 +1,4 @@
-# ![json.lua](https://cloud.githubusercontent.com/assets/3920290/9281532/99e5e0cc-42bd-11e5-8fce-eaff2f7fc681.png)
 A lightweight JSON library for Lua
-
 
 ## Features
 * Implemented in pure Lua: works with 5.1, 5.2, 5.3 and JIT
@@ -11,10 +9,15 @@ A lightweight JSON library for Lua
 
 
 ## Usage
+Install:
+```bash
+luarocks install json-rock
+```
+
 The [json.lua](json.lua?raw=1) file should be dropped into an existing project
 and required by it:
 ```lua
-json = require "json"
+json = require("json2")
 ```
 The library provides the following functions:
 
