@@ -2,9 +2,6 @@ A lightweight JSON library for Lua
 
 ## Features
 * Implemented in pure Lua: works with 5.1, 5.2, 5.3 and JIT
-* Fast: generally outperforms other pure Lua JSON implementations
-  ([benchmark scripts](bench/))
-* Tiny: around 280sloc, 9kb
 * Proper error messages, *eg:* `expected '}' or ',' at line 203 col 30`
 
 
@@ -14,10 +11,9 @@ Install:
 luarocks install json-rock
 ```
 
-The [json.lua](json.lua?raw=1) file should be dropped into an existing project
-and required by it:
+Required by it:
 ```lua
-json = require("json2")
+json = require("json_rock")
 ```
 The library provides the following functions:
 

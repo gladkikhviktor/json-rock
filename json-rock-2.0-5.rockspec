@@ -1,5 +1,5 @@
 package = "json-rock"
-version = "2.0-4"
+version = "2.0-5"
 source = {
     url = "git+https://github.com/gladkikhviktor/json-rock",
 }
@@ -15,6 +15,6 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        json2 = "src/json2.lua"
+        json2 = "src/json_rock.lua"
     }
 }
